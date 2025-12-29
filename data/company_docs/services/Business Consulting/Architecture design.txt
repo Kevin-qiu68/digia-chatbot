@@ -1,0 +1,34 @@
+Architecture design
+Enterprise architecture is the foundation of the information systems used by your organisation. It ties all your systems together to ensure the usability and security of digital services, and their serviceability in your operational processes.
+
+What is the consequence of disorganised system architecture?
+It is, of course, possible to develop an organisation's processes and information systems without a consistent architecture plan, but this often results in an incoherent systems entity that becomes difficult to manage. Even small changes to one part of the system can cause unexpected consequences elsewhere and result in heated disputes about responsibilities.
+
+The risk of service disruptions can be avoided with careful architecture planning, or the modernisation of the entire IT environment, if necessary. You should strive to develop an IT architecture that meets the goals you have set for digitalisation and your business. Change requirements can extend from existing application systems to the entire service infrastructure.
+
+Digitalisation often requires you to make changes to operating processes. With purposefully designed enterprise architecture, you always have an overall picture of all the processes, the data they require, the information systems you have in place, and the technologies that are in use.
+
+Towards reliable application and enterprise architecture
+Developing the processes and information systems entity needed to support data-based management and the production of high-quality customer experiences requires consistency: a system entity built on high-quality, real-time integrations.
+
+That isn’t going to happen by accident. It requires systematic, high-quality enterprise architecture design that takes information security and usability into account. The architecture can be solution-specific or area-specific, or it can encompass the entire organisation.
+
+A reliable partner can help you develop and maintain a system entity that supports your business needs now and in the future.
+
+What makes Digia the perfect architecture design partner?
+At Digia, we have an excellent understanding of architecture specifications, and we can offer architecture design for projects of all sizes, from solution to enterprise architecture.
+
+If you are unsure about the state of your IT environment, we can help perform a current-state analysis. First, we form an understanding of your whole operating environment and the connections between services, different systems, and processes. Then, we create a comprehensive architecture design and a development plan that supports your IT operations.
+
+Shall we think things through together?
+If you would like to talk to one of our experts, you can leave us a contact request via the button below.
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+Application development – web, mobile and low-code
+Today's digital services must be designed to meet users' needs and expectations. They must also work flawlessly across all devices and application interfaces.
+
+User experience and data at the core of service and application development
+Digital services can no longer be developed on terms set by technology or the company providing the service. The customer or the service user must be able to perform all the desired actions easily and quickly, whether they involve online shopping or taking care of work-related tasks.
+
+Service development must be based on user-centricity and must enable the utilisation of data. It is essential to think about who the service is for and what it is for. Meeting users’ needs and wishes should be the top priority.
+
+It is also important to think about how to collect user and usage data, so that you can base further development decisions on relevant and up-to-date information.
+
+
+Ensure your online and mobile services deliver a superior user experience
+A winning user experience is created when you leverage service design to complement modern technology. It is not a matter of designing attractive visuals for the service, but about the clarity and ease of use.
+
+These days, you can easily build an online service on top of a content management system, which allows you to use various functions that facilitate content management and distribution. For an online store, we recommend choosing a customisable platform that offers tools, processes, and data functions. Integrations with background systems need to be handled by a professional, and the same goes for data security.
+
+Developing a mobile application requires a bit more work. Designing the operations and user interface of an application requires strong expertise. The background system must be either built from scratch or customised using a ready-made solution. Integrations into existing processes and systems must not be overlooked.
+
+An experienced partner is worth its weight in gold in all the cases mentioned above. If you’re lucky, you get technology and data expertise, as well as 24/7 support services, from the same place as service design and business consulting. That’s certainly true if you turn to us.
+
+Low-code application development
+Using a low-code platform allows you to create mobile applications without in-depth IT and coding knowledge. This means your own experts can use their process expertise when building the application.
+
+Typical uses of low-code development include mobile business tools for a company's employees, robotic process automation, and smart applications for keeping records and registers that replace Excel sheets. Low-code platforms are, however, also suitable for broader, even business-critical solutions.
+
+The most common reason to choose low-code application development is fast implementation: you can have a new service in use in under a week. You won’t even need to compromise on functionalities such as automation, analytics and bots.
+
+At Digia, we support you in low-code application development: from implementing the solution to offering expert help for your development team. Our strong integration and analytics expertise, as well as our excellent support services, are naturally also available to you.
+
+
+Mapping workshop for online stores
+We offer free workshops for customers who are planning an online store with a modern customer experience and agile technology.
+
+During the workshop, we clarify the plan, business goals, necessary processes, and the scope of the project. Next, we prioritise tasks and help to identify things that cannot be compromised. Finally, we survey your maintenance-related needs and agree on the next steps.
+
+Fast track for better mobile services
+Our fast track is suitable for customers who are planning to launch a mobile service or whose current mobile service does not meet its goals.
+
+With the help of interviews, background materials and workshops, we concretise your business needs, visualise the service, and make an outline of the architecture, technology choices and integrations. Based on this, we determine a rough cost estimate for the implementation and agree on the next steps.
+

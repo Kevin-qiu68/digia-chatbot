@@ -1,0 +1,108 @@
+Integrations and data
+We are one of the major providers of integration and API services in Northern Europe, and can help you with the most demanding integration, API, data, and IoT needs.
+
+Integrations and APIs that power progress
+We help you design, implement, and manage integrations and interfaces and develop a coherent architecture.
+
+This ensures that data can be used to support the continuous evolution of your business and that critical integrations operate 24/7.
+
+Together, we can:
+
+automate processes and operations,
+improve the productivity of digitalisation,
+enable new ecosystems and network-based operating models,
+provide the right kind of data for AI,
+and ensure the continuity and risk management of critical data flows.
+
+Our approach
+Solutions that scale.
+As the number and diversity of data sources grow, the integration architecture must facilitate development—not slow it down.
+
+Using a constantly evolving, extensive technology portfolio, containing both commercial and open-source technologies.
+
+We can take overall responsibility for your integrations.
+Together, we will agree on the desired service scope and can take over all of your integration operations if you wish. We often manage the entire multi-vendor network using standardised processes and tools.
+
+24/7 services.
+We monitor and respond to disruptions—also 24/7.
+
+Northern European Integration Powerhouse
+Digia and its subsidiary Savangard can together offer:
+
+Over 25 years of experience in integration and data management
+420 professionals in Finland, Poland and Sweden
+Over 240 active customers in business-critical environments
+Ongoing deliveries in 20 European countries.
+
+Examples of our services
+Fast Track services
+Productised services to advance your integration architecture, IoT, API, or data analytics capabilities rapidly.
+
+Integration Architecture Fast Track
+We work with you to outline a future integration solution and development roadmap.
+
+IoT Fast Track
+We build a clear picture of the potential business advantages of IoT.
+
+API Fast Track
+We will review your API development and management maturity, and create a development roadmap.
+
+Data Fast Track
+We will build a roadmap for modernising your data platforms, analytics and reporting, and clarify the business advantages.
+
+Integration Security Assessment
+We evaluate the security of your integration and API platforms and selected implementations. You will receive key findings and targeted recommendations to strengthen the security of the overall integration and API management environment.
+
+API Factory
+Our new service model helps modernise legacy integration architecture and develop and manage integrations—significantly faster and more cost-effectively than before. The service scales to your needs, and costs remain predictable.
+
+Projects
+We provide a wide range of services in the deployment, development, migration and takeover of existing integration, API, IoT and data solutions. We deliver projects using both agile methodologies and the waterfall model.
+
+Continuous services
+In addition to continuous development, we ensure that platforms and integrations operate without disruptions.
+
+
+Choose an experienced integration powerhouse
+Major Northern European player
+
+Digia is Finland's leading provider of integration and API services, and one of the largest integration service providers in the Nordic region. Our vision is to become the Northern European Integration Powerhouse.
+Over 25 years and thousands of completed projects
+
+We have experience in long-term strategic partnerships, mission-critical environments, state-of-the-art tools and cloud migrations.
+Industry expertise
+
+We understand our customers' businesses and have experience across a wide range of industries, including retail, manufacturing, energy, telecommunications, finance, defence, and the public sector.
+International delivery capability and offshore
+
+We provide services continuously in 20 European countries. Through our subsidiary Savangard, we can deliver agreed parts of the work from Poland.
+Technology agnostic
+
+A constantly evolving, extensive technology portfolio containing both commercial and open-source technologies.
+Active technology and trend monitoring
+
+60+ integration architects monitor the field and share information to ensure we are at the forefront of development.
+ISO 27001
+
+Resilient operations with high security requirements. We are certified in both Finland and Poland.
+Productised services
+
+Systematic approaches and effective management tools for the whole lifecycle of integrations and interfaces.
+Integration architecture transformations
+
+Thanks to productisation, AI, and our international delivery model, we can deliver even large-scale transformations cost-effectively.
+
+
+Contact us
+Mikko Hakola
+Vice President, Integration & Data
+
+
+
+
+
+
+
+
+
+

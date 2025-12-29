@@ -1,0 +1,34 @@
+Customer relationship management
+Move towards intelligent customer service and proactive sales management with the help of data and artificial intelligence.
+
+Smart use of data is key to success in the future
+Today, customers expect personal service across all channels. One customer prefers phone service during the day; another is comfortable handling things with a chatbot late in the evening. All businesses need to make different service channels available to their customers and ensure that the service is fast and smooth.
+
+Excelling in customer service strengthens customer relationships and creates business growth. But if the customer service and sales data is not in order – that is, if it’s incomplete or scattered around the organisation – it’s not going to be helpful.
+
+Personal, high-quality customer service and effective sales are possible only if you have a comprehensive picture of your customers, backed up by relevant data. This requires all customer-related information to be collected in one place and open for everyone to utilise.
+
+A shared platform for sales, customer service and case management
+Organisations that can utilise data in their own operations will be the winners in the future. Intelligent data platforms enhance the management and utilisation of customer data.
+
+By bringing, for example, order and contract management to the same business platform as customer relationship management, you get all your customer-related information centralised in one place.
+
+Digia has plenty of experience in solving sales-management challenges with the help of data. Our technological understanding and the expertise of our data analysts help us design unique tools that help you in data-driven sales.
+
+Microsoft Dynamics 365 CRM
+The cloud-based CRM platform includes ready-made solutions for the needs of sales management, customer service, field operations and marketing. The solution can be customised and expanded according to your needs.
+
+At Digia, we have over 20 years of experience in delivering Microsoft CRM solutions and a team of nearly 100 Dynamics 365 CRM and Power Platform experts ready to help you.
+
+Microsoft Power Platform
+The cloud-based development platform offers tools for business application development and reporting, and for the automation of manual processes. This is a cost-effective solution in a situation in which actual application development is not ideal.
+
+The Power Platform seamlessly integrates with all Office 365 and Dynamics 365 solutions, as well as with hundreds of other data sources.
+
+
+contact us
+Samuli Forsman
+Senior Delivery Group Direcor
+
+→ samuli.forsman@digia.com
+

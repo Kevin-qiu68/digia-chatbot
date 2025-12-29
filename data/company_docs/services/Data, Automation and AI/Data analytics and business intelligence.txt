@@ -1,0 +1,42 @@
+Data analytics and business intelligence
+Many businesses are already on a journey towards data-driven business. This means moving from simply tracking key figures to automated ERP processes, reliable forecasting and impact evaluations.
+
+Support strategy and decision -making with data
+Data is one of the key tools in modern business leadership and management. In the past, it was used mainly for performance monitoring, whereas today – thanks to advanced analytics – data helps us lead more intelligently and manage more efficiently.
+
+Monitoring key metrics in real time is a powerful aid in managing finances and key operations, as well as in leading business and sales. When paired with artificial intelligence and automation, data can produce reliable forecasts and opportunities for optimisation and further development.
+
+Carefully analysed and reliable data is an important tool when developing new services and business.
+
+Let’s cultivate value from your data
+Most of the leading ERP, WMS and CRM systems already work as a key tool that enables data-driven management. If your system does not include actual data analytics functionality, it is a good idea to utilise a separate data platform and a BI tool. There are plenty of intelligent, easy-to-use and cost-effective systems available.
+
+We will help you choose the most suitable tools for your needs, and we will support you in bringing your data vision to life, whether you’re a seasoned data leader or just getting started with leveraging data.
+
+We can also help you with defining your goals and forming an evolving data strategy, as well as with choosing and securely implementing your data platform. We ensure that all enablers of data warehousing, reporting, and analysis are in order.
+
+Data-driven management is an essential step on the road towards the digital evolution.
+
+Streamlining operations and improving customer understanding are particularly viable use cases for data analytics.
+
+Driven by data, not dada.
+Buzzwords and fads come and go, facts don’t.
+
+Business insight and technical implementation from one partner
+At Digia, we know the source systems for data and understand technical implementation possibilities, and we can therefore help you leverage the possibilities of data analytics.
+
+We understand the importance of having analytics data that is reliable, easily understandable, and possible to leverage for everyone, regardless of location. We have implemented numerous successful data projects for businesses in many different industries, from financial reporting to enabling sustainable development actions and optimising operations.
+
+Our expertise is strengthened by our subsidiary Climber, which operates primarily in the Nordic countries and Europe. Climber has implemented more than 400 BI solutions annually for domestic and international customers for monitoring, analysis and reporting with QlikView and Qlik Sense.
+
+Analytics Fast Track – a roadmap for leveraging data and analytics
+We have developed a series of quick and efficient workshops, during which we help you form an overview of your current situation and an actionable plan to get you started with data analytics. We can focus on technology choices or use case identification and descriptions, according to your needs.
+
+Digia Business Insight – from fragmented data to a clear overview
+We have developed a scalable overall solution for data-led management. You get a cloud-based data warehouse, an analytics solution, and reporting, fully integrated into your existing ERP or CRM solution.
+
+
+
+
+
+

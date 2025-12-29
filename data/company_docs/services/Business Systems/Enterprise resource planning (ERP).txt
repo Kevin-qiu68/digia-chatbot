@@ -1,0 +1,72 @@
+Enterprise resource planning
+In intelligent enterprise resource planning, systems, processes, and data flows form an efficient data-controlled entity that offers enormous opportunities for automation and optimisation.
+
+Enable predictive data-led management and seamless business operations
+Enterprise resource planning is most effective when your ERP system supports your company’s entire service chain: from the order and supply chain to production, and across project management, customer relationship management, invoicing management, and inventory management.
+
+When repetitive routine tasks are automated and the system produces real-time data visualised in an easy-to-understand format, you have all the prerequisites in place for reliable data-based management of operations and finances.
+
+Increased transparency enables you to increase efficiency through continuous optimisation and automation. Comprehensive utilisation of data across management, development, and decision-making builds a competitive advantage for your business.
+
+Enabling growth, rapid changes and scalability of operations often requires a full-scale renewal of the way service production and processes are managed with the aid of a sophisticated ERP system. As a result, the company's digital development becomes faster and the ability to react to changes more agile.
+
+
+Experienced partner for enterprise resource planning and implementation
+At Digia, we are highly experienced in delivering enterprise resource planning solutions, with over 400 ERP customer projects completed. Our solutions are scalable, suiting small companies with a turnover of some 15 million euros and large companies with a turnover in excess of hundreds of millions, as well as public administration organisations.
+
+We offer industry-specific solutions, self-developed solutions, and platforms from large international partners. From these, we select for deployment the solution that best suits our customer’s specific needs.
+
+We have a plenty of experience working with companies in the industrial sector, the services sector, wholesale, specialty goods, energy, and utilities, as well as the Finnish wellbeing services counties. We also, of course, deliver ERP systems to customers from any other industry.
+
+
+A long-term partnership guarantees high-quality continuous services and development
+Successful ERP development requires tight collaboration and long-term partnership. In addition to project delivery, we can offer comprehensive and scalable continuous services.
+
+Our Finnish ERP experts have deep know-how, with 500+ experts involved in enterprise resource planning projects. Our customer and project teams always include experienced experts, as well as specialists in several areas. For internationally operating companies and growth companies running international operations, we implement projects in cooperation with our extensive partner network.
+
+Thanks to our wide range of expertise – integration, analytics, robotics, automation, mobile, web service, and information security – we can offer also a full service package to our customers. Together, we create a development roadmap to be implemented at a pace set by you.
+
+We offer reliability, a long-term partnership, and the ability to deliver and serve customers globally. Our operations are quality and safety certified.
+
+Microsoft Dynamics 365 Finance & Operations – comprehensive business operations platform
+Microsoft’s Finance & Operations platform is composed of Supply Chain Management, Project Operations, Commerce and Finance solution modules. It is suitable for the needs of medium-sized and large companies. It can be extended with Sales, Service, Marketing, Customer Insight and Power Platform solutions, as well as with Power Platform low-code solutions that enable analytics, mobile app development and robotics.
+
+We are experienced in delivering extensive solution packages to our customers. In addition to the solution platform, we offer smooth and comprehensive continuous services. Thanks to the know-how of our experienced expert teams, we succeed even in highly challenging projects. We can also supplement our domestic teams with partners from international networks when implementing significant international projects.
+
+We have implemented ERP projects for various industries, but our expertise is the greatest when working with customers from the industrial sector, the services sector, the energy sector, and trade. We also collaborate closely with the Finnish wellbeing services counties.
+
+Digia is one of Finland's largest Microsoft Dynamics 365 suppliers and the one of the few Finnish companies among the Inner Circle elite partners. We have more than 200 Microsoft Dynamics 365 experts with extensive experience in aligning company-specific processes with Microsoft Dynamics 365 business applications.
+
+
+Microsoft Dynamics 365 Business Central
+This versatile cloud-based ERP system contains good basic functions and offers plenty of expansion possibilities. The easily scalable solution is especially suitable for growth-oriented SMEs, industrial companies, wholesale trade, and service industries.
+
+The system integrates with MS Office tools, Azure and Power Platform. We have developed extensions to Business Central in order to support PowerBI reporting, the Digia DaaS service, and the special requirements of selected key industries.
+
+
+Oracle NetSuite – ERP platform for multi-national corporations
+NetSuite is a cloud-based ERP system that scales to meet the needs of multi-national corporations and conglomerates in financial control, production control, supply chain management, customer relationship management and project management.
+
+We have the country's best expertise in working with industrial companies, service and software companies, and wholesale trade. We have developed a fast and cost-effective deployment model and ready-made components that enable the solution to meet company-specific and industry-specific needs.
+
+
+Digia Envision – ERP system for Finnish businesses
+Our own ERP solution meets the specific requirements set by the Finnish business environment. The solution covers the order and supply chain, production and customer relationship management, and inventory management. We have also developed modules for upkeep and maintenance, quality control and self-monitoring.
+
+We offer ready-made solutions for the needs of the wholesale, food, machinery, and manufacturing industries. Our system can be fully tailored to meet customer needs, which is necessary in situations where there is no ready-made solution for the specific industry. You get an experienced partner to implement enterprise resource planning as a platform solution and to serve you throughout its long life cycle.
+
+Our system development is active and continuous, driven specifically by the needs of Finnish businesses. The data is visualised in an easy-to-read format, and the system can be used with any type of smart device. The system also enables you to minimise your carbon footprint as part of operational activities.
+
+
+Digia Logistics – ERP system for logistics and handling companies
+We have also developed a highly scalable enterprise resource planning system for logistics and handling companies.
+
+Thanks to standard interfaces, the system can be easily integrated with other systems. All modules have strong integrations, which makes you more efficient and minimises the need to enter the same information several times. The handling operations module includes customs' message-based procedures, as well as vehicle taxation and EMCS procedures for the Tax Administration.
+
+
+contact us
+Heikki Rakkolainen
+Vice President Sales, Business Platforms
+
+→ heikki.rakkolainen@digia.com
+

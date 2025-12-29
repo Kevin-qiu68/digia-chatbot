@@ -1,0 +1,91 @@
+Information and cyber security
+Our services make your software, solutions, and services reliable – regardless of their vendor.
+
+Keep your business running without disruptions
+We help you develop information and cyber security so your digital architecture endures. Security is integrated into every solution we work on, from architecture to deployment and continuous development. Your systems, integrations, and data remain protected, even in complex and demanding environments.
+
+Together we can:
+
+Form a comprehensive view of your information security now, and a development path forward.
+Ensure that safety perspectives are considered in all development and daily operations.
+Raise the level of visibility, monitoring, and response.
+Bring AI utilization safely into your business.
+Strengthen the protection level of your digital environment well into the future.
+Let's make security a business strength – not a source of friction.
+
+
+Our approach
+Security built in. Security and preparedness are part of our daily work in all development projects, whether we deliver tailored software of other solutions.
+
+Solutions for high-security needs. Off-the-shelf products rarely meet special security requirements. We can deliver all software solutions and services according to different security levels. We operate audited high-security production facilities and have years of experience as a trusted partner for organizations in a world where security is critical.
+
+Numerous products and services that help you ensure the security of your operations, developed by Digia.
+
+24/7 monitoring. We monitor and respond to incidents – around the clock, if needed.
+
+
+Examples of our services
+Business continuity planning
+Ensure that your software, products, solutions, and services remain operational in all situations.
+
+
+
+
+—
+Integration security assessment
+We evaluate the security of your integration and API platforms, as well as selected implementations.
+
+
+
+—
+24/7 situational awareness and monitoring
+Do you need visibility into critical processes, monitoring, and/or rapid response to security incidents?
+
+
+
+
+
+
+—
+Digia Linja for secure data transfer
+Digia Linja is a gateway product for secure data transfer.
+
+It is ideal for data exchange between systems with the same security level in public administration, and for traffic between networks in the private sector.
+
+Digia Linja is listed as a security-critical product by the Finnish Transport and Communications Agency Traficom's NCSA function.
+
+
+—
+Expert help
+Through our expert network and partners, you can access help for leading and managing your information security – whether for individual service areas or an entire governance model.
+
+
+Recognized expertise
+Over 20 years of experience
+
+We have decades of experience working with demanding operating environments, society-critical and security-critical customers.
+200+ experts
+
+More than 200 experts who are used to working in classified and highly regulated environments.
+Development model that supports compliance and requirements
+
+In our model, information security is embedded throughout the entire development lifecycle. Our operating model evolves continuously and responds proactively to regulatory changes.
+ISO 27001
+
+ISO 27001 certification guides architecture, development, and practices.
+Security Class III facilities
+
+We can deliver all services from audited TLIII (Confidential) class premises.
+Software solutions that stand the test of time
+
+We leverage widely adopted technologies that receive continuous security updates and ensure access to skilled professionals.
+
+
+Contact us
+Katja Kuusela
+Director, Security Business Innovation and Development
+
+
+
+
+

@@ -1,0 +1,182 @@
+Cloud services
+We are a recognised and trusted partner of the leading cloud platforms. From us, you'll get everything you need for your cloud transformation.
+
+Cloud services to support digital business
+We are a trusted partner of the world's leading cloud platforms: Microsoft Azure, Google Cloud, Amazon Web Services, and Oracle Cloud Infrastructure.
+
+These environments are scalable, cost-efficient, reliable, and secure, providing the most advanced services and development tools.
+
+Leveraging cloud platforms is the most effective way to improve your company's productivity and competitiveness in digital business.
+
+
+We partner with you to design cloud architectures that work. Whether it's a hybrid cloud that integrates your data centre, a multi-cloud strategy, or a combination of both, we build the ideal foundation for your business.
+
+We optimise and manage your cloud solutions across their lifecycle. This approach ensures your environment remains powerful, cost-effective, and always up-to-date, so you can focus on business, not infrastructure.
+
+24/7 support & security. Peace of mind delivered by the round-the-clock monitoring and support from our Finnish expert team. Automation-assisted systems enable proactive monitoring and rapid incident response, with proven experience in delivering security-critical solutions.
+
+As a comprehensive cloud partner, we have a deep understanding of business requirements. We help you design, implement and operate the technical cloud environments they demand—efficiently, securely and with continuous optimisation.
+
+Examples of our services
+
+Cloud consultancy
+Cloud advisory
+Your cloud journey, accelerated. We identify the needs for modernising your operating model, define the requirements, and create a cloud strategy. You'll receive a governance model and an actionable implementation plan for a successful cloud journey.
+
+ 
+Cloud well-architected review
+In this state-of-cloud review, we identify areas for improvement in your current cloud environments, covering security, reliability, cost optimisation, performance, and operational excellence. You'll receive a comprehensive report with prioritised actions.
+
+
+Level up!
+Tailored consulting for specific challenges, such as sharpening cloud governance practices, automating cost management, or enhancing layered cybersecurity.
+
+
+Professional services
+Sometimes all you need is an extra pair of hands. We also offer our experts as part of your own team.
+
+Cloud transition and transformation
+Discovery
+A smooth and controlled cloud migration starts with evaluating your existing applications, designing the target environments, and  planning migrations. We consider both the technical aspects and your current processes.
+
+
+Ramp-up
+We create a standardised, secure, and compliant cloud foundation (Landing Zone) for your organisation, ensuring control from day one.
+
+ 
+Migration factory
+A fast and reliable engine for cloud migration: a centralised process that guarantees migration within the agreed timeframe into a production-ready, continuously managed service.
+
+
+Projects services
+Managing the planning and implementation of the migration of existing service environments.
+
+Continuous cloud services
+Managed cloud
+We provide a comprehensive, round-the-clock service for maintaining and optimising your cloud environment, ensuring high availability and stability. We monitor, prepare for, and respond to incidents so you can focus on your business.
+
+ 
+Cloud operations & development
+Combines operational stability with agile development: comprehensive monitoring, security updates, and robust backup and recovery mechanisms, whether for virtual machines, containers, or data platforms.
+
+
+Cloud capacity
+Cloud capacity and licenses at competitive prices. We take care of the contractual issues for you.
+
+Cloud transformation requires an experienced partner
+Specialist provider of Google Cloud infrastructure and AI solutions
+Microsoft Partner of the Year four years in a row
+40 experts
+Active monitoring of cloud technologies and trends
+Solid experience also in multi-cloud implementations
+Proven to be one of the best IT service providers in Finland
+
+
+A trusted partner for leading cloud providers
+Google Cloud Partner
+We've delivered Google Cloud services to our customers for nearly 15 years and have been a Google Cloud Partner since 2019.
+
+As a Google Cloud Partner, we help develop our customers' business particularly in:
+
+application and service development,
+data analytics,
+artificial intelligence,
+integrations and critical solutions.
+We hold the respected Google Cloud Platform Infrastructure Specialization, a testament to our deep technical expertise and commitment to Google Cloud deliveries.
+
+In addition, we are Finland's first Google Gemini Enterprise (formerly Agentspace) delivery partner. We help organisations leverage AI agents more effectively and securely as part of their own IT ecosystem.
+
+
+We use Google Cloud ourselves
+We also use Google Cloud as part of our own business solutions:
+
+Digia Envision ERP
+Digia Iiris monitoring service
+B2C and B2B e-commerce solutions.
+
+Read more about our Google Cloud customers and implementations
+Eckerö Line has been developing their digital customer experience with Digia for years.
+
+Fira moved to real-time site monitoring with Digia's support.
+
+DigiFinland chose Digia to provide an integration platform for social, health, and rescue services familiar to many Finns.
+
+
+—
+Microsoft Partner
+Microsoft has been one of Digia's key partners for over a decade. At Digia, we have one of Finland's largest communities of Microsoft D365 experts.
+
+Through the partnership programme, we can offer our customers a comprehensive, integrated and continuously evolving range of solutions.
+
+In particular, we specialise in D365, MS Business Central, Power Platform and Azure DevOps technologies.
+
+
+A recognised partner
+Digia has received the Microsoft Partner of the Year award for four years in a row.
+
+We hold the valued, audited Microsoft specialisations:
+
+Analytics on Microsoft Azure
+Microsoft Low Code Application Development.
+In the Microsoft AI Cloud Partner Program (MACPP), we have achieved the following designations:
+
+Solutions Partner for Data & AI (Azure)
+Solutions Partner for Digital & App Innovation (Azure)
+Solutions Partner for Business Applications
+Solutions Partner for Infrastructure
+Solutions Partner for Security.
+We can provide the paid Microsoft Unified Support as part of our own capacity.
+
+
+Read more about our Microsoft customers and implementations
+State Treasury - Digia Managed Cloud service guarantees the reliability of the cloud environment, helps optimise costs, and supports application development.
+
+Woikoski renewed its entire business together with Digia.
+
+
+—
+AWS
+AWS is our long-standing platform partner for cloud solutions. At Digia, we have around 100 certified AWS professionals in Finland—and that number is growing rapidly.
+
+Our AWS services cover all cloud services,  from strategy creation to architectures, migrations, modernisation, and ongoing services.
+
+The AWS technology portfolio enables us to deliver advanced cloud solutions across Digia's broad customer base. We have delivered dozens of AWS-based  solutions for both public and private sector clients.
+
+
+Advanced Consulting Partner
+As an AWS Advanced Consulting Partner, Digia holds the Well Architected, AWS Public Sector, and AWS Solution Provider qualifications. This ensures we have access to the latest knowledge and full partner support.
+
+
+Read more about our AWS customers and implementations
+Finavia develops and maintains Finland's 21 airports and the infrastructure required for air traffic. The integrations and APIs managed by Digia are a vital part of ensuring smooth air traffic.
+
+A-lehdet unified the platforms and operating models used by its various publications with Digia's support.
+
+The Finnish Ice Hockey League has been intensively developing its customer experience with Digia's development team.
+
+
+—
+Oracle
+We have been an Oracle Partner Network since 2010s. Digia is Finland's leading Oracle cloud expert, particularly for security-critical customers.
+
+
+Technology partner for integration services, industry solutions, and cloud services
+Digia leverages Oracle technology in both cloud services and industry-specific systems.
+
+We deliver Oracle NetSuite ERP solutions, offering customers comprehensive services from planning and implementation to maintenance. In addition, we are Oracle's cloud and hybrid cloud expert partner in demanding, security-critical environments.
+
+Oracle technology is ideally suited for large-scale integration solutions and building industry-specific solutions that support business operations. Digia's role covers both applying the technology and creating customized solutions to meet customer needs.
+
+Our team includes seasoned Oracle experts with certified expertise in Oracle Cloud Infrastructure and NetSuite ERP. Digia has strong capabilities in combining integrations and DevSecOps practices in multi-vendor environments, always considering the customer's existing practices and processes.
+
+
+Read more about our Oracle Cloud customers and implementations
+The Government ICT Centre Valtori has chosen Digia as its Oracle Private Cloud expert services partner.
+
+
+Contact us
+Kimmo Tokkari
+Senior Director, Cloud Center of Excellence
+
+
+
