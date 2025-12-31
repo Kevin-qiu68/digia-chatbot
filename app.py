@@ -8,17 +8,29 @@ import os
 from datetime import datetime
 
 # Add src directory to path
-sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
+current_dir = os.path.dirname(os.path.abspath(__file__))
+src_path = os.path.join(current_dir, 'src')
+if src_path not in sys.path:
+    sys.path.insert(0, src_path)
 
-from src.config import (
-    COHERE_API_KEY,
-    VECTORDB_PATH,
-    COLLECTION_NAME,
-    COHERE_MODEL
-)
-from src.vectorstore import VectorStoreManager
-from src.rag_chain import RAGChain
-from src.agent import DigiaAgent
+# Import after adding to path
+try:
+    from config import (
+        COHERE_API_KEY,
+        VECTORDB_PATH,
+        COLLECTION_NAME,
+        COHERE_MODEL,
+        DATA_PATH,
+        CHUNK_SIZE,
+        CHUNK_OVERLAP
+    )
+    from vectorstore import VectorStoreManager
+    from rag_chain import RAGChain
+    from agent import DigiaAgent
+except ImportError as e:
+    st.error(f"Import Error: {e}")
+    st.info("Please check if all source files are present in the src/ directory")
+    st.stop()
 
 
 # Page configuration
@@ -90,8 +102,10 @@ def initialize_agent():
             st.info("This is a one-time process and may take 2-3 minutes...")
             
             # Import build components
-            from src.data_loader import DocumentLoader
-            from src.config import CHUNK_SIZE, CHUNK_OVERLAP
+            try:
+                from data_loader import DocumentLoader
+            except ImportError:
+                from src.data_loader import DocumentLoader
             
             # Build vector database
             with st.spinner("Loading documents..."):
