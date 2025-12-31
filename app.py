@@ -80,14 +80,39 @@ def initialize_agent():
     try:
         # Check API key
         if not COHERE_API_KEY:
-            st.error("❌ COHERE_API_KEY not found in .env file")
+            st.error("❌ COHERE_API_KEY not found")
+            st.info("Please configure COHERE_API_KEY in Streamlit Cloud secrets")
             st.stop()
         
-        # Check vector database
+        # Check vector database - build if not exists
         if not os.path.exists(VECTORDB_PATH):
-            st.error(f"❌ Vector database not found at {VECTORDB_PATH}")
-            st.info("Please run build_vectordb.py first to create the knowledge base")
-            st.stop()
+            st.warning("⚠️ Vector database not found. Building now...")
+            st.info("This is a one-time process and may take 2-3 minutes...")
+            
+            # Import build components
+            from src.data_loader import DocumentLoader
+            from src.config import CHUNK_SIZE, CHUNK_OVERLAP
+            
+            # Build vector database
+            with st.spinner("Loading documents..."):
+                loader = DocumentLoader(DATA_PATH, CHUNK_SIZE, CHUNK_OVERLAP)
+                chunks = loader.process_documents()
+            
+            if not chunks:
+                st.error("❌ No documents found in data/company_docs/")
+                st.info("Please add company documents to the data folder")
+                st.stop()
+            
+            with st.spinner(f"Creating vector database with {len(chunks)} chunks..."):
+                temp_manager = VectorStoreManager(
+                    api_key=COHERE_API_KEY,
+                    persist_directory=VECTORDB_PATH,
+                    collection_name=COLLECTION_NAME
+                )
+                temp_manager.create_vectorstore(chunks)
+            
+            st.success("✅ Vector database built successfully!")
+            st.rerun()
         
         # Initialize components
         with st.spinner("Loading knowledge base..."):
