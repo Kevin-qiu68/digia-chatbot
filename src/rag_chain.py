@@ -11,7 +11,7 @@ class RAGChain:
         self, 
         vectorstore_manager: VectorStoreManager,
         cohere_api_key: str,
-        model: str = "command-r-plus",
+        model: str = "command-a-03-2025",
         top_k_retrieval: int = 20,
         top_k_rerank: int = 3,
         temperature: float = 0.3,
@@ -87,19 +87,19 @@ class RAGChain:
         """Build prompt for LLM"""
         prompt = f"""You are an AI assistant for Digia company. Your role is to answer customer questions based on the provided context.
 
-Instructions:
-- Answer questions accurately based on the context provided
-- If the information is not in the context, say "I don't have that information in my knowledge base"
-- Be concise and professional
-- Respond in the same language as the question
-- If asked about services, products, or company information, provide specific details from the context
+        Instructions:
+        - Answer questions accurately based on the context provided
+        - If the information is not in the context, say "I don't have that information in my knowledge base"
+        - Be concise and professional
+        - Respond in the same language as the question
+        - If asked about services, products, or company information, provide specific details from the context
 
-Context:
-{context}
+        Context:
+        {context}
 
-Question: {query}
+        Question: {query}
 
-Answer:"""
+        Answer:"""
         
         return prompt
     

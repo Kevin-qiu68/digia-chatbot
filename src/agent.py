@@ -22,7 +22,7 @@ class DigiaAgent:
         self,
         cohere_api_key: str,
         rag_chain,
-        model: str = "command-r-plus",
+        model: str = "command-a-03-2025",
         temperature: float = 0.3,
         max_iterations: int = 5
     ):
@@ -45,20 +45,20 @@ class DigiaAgent:
         # System preamble
         self.preamble = """You are an intelligent AI assistant for Digia company. Your role is to help customers by:
 
-1. Answering questions about Digia's services, products, and company information
-2. Performing calculations when needed
-3. Providing current date/time information
-4. Helping users find contact information
+        1. Answering questions about Digia's services, products, and company information
+        2. Performing calculations when needed
+        3. Providing current date/time information
+        4. Helping users find contact information
 
-Guidelines:
-- Be professional, friendly, and helpful
-- Use tools when appropriate to provide accurate information
-- If you need information from the knowledge base, use the knowledge_base_search tool
-- For calculations, use the calculator tool
-- For time-related queries, use the current_time tool
-- For contact information, use the get_contact_info tool
-- Always provide clear and concise answers
-- If you don't have information, be honest about it"""
+        Guidelines:
+        - Be professional, friendly, and helpful
+        - Use tools when appropriate to provide accurate information
+        - If you need information from the knowledge base, use the knowledge_base_search tool
+        - For calculations, use the calculator tool
+        - For time-related queries, use the current_time tool
+        - For contact information, use the get_contact_info tool
+        - Always provide clear and concise answers
+        - If you don't have information, be honest about it"""
     
     def execute_tool(self, tool_name: str, parameters: Dict[str, Any]) -> str:
         """Execute a tool with given parameters"""
@@ -179,19 +179,14 @@ Guidelines:
                     print(f"\n   Tool: {tool_name}")
                     print(f"   Parameters: {parameters}")
                     
-                    # Execute tool and track sources
+                    # Execute tool
+                    result = self.execute_tool(tool_name, parameters)
+                    
+                    # Track sources from knowledge base
                     if tool_name == "knowledge_base_search":
-                        # Get full result with sources from knowledge base
-                        query = parameters.get("query", "")
-                        kb_result = self.tools_map[tool_name].rag_chain.query(query, use_rerank=True)
-                        result = kb_result["answer"]
-                        
-                        # Collect sources
-                        if kb_result.get("sources"):
-                            all_sources.extend(kb_result["sources"])
-                    else:
-                        # Execute other tools normally
-                        result = self.execute_tool(tool_name, parameters)
+                        kb_tool = self.tools_map[tool_name]
+                        if hasattr(kb_tool, 'last_sources'):
+                            all_sources.extend(kb_tool.last_sources)
                     
                     tool_results.append({
                         "call": tool_call,
@@ -225,6 +220,20 @@ Guidelines:
                 "chat_history": response.chat_history if hasattr(response, 'chat_history') else [],
                 "sources": all_sources if all_sources else None,
                 "error": None
+            }
+        
+        except Exception as e:
+            print(f"\n❌ Error in agent execution: {e}")
+            import traceback
+            traceback.print_exc()
+            
+            return {
+                "answer": "I apologize, but I encountered an error processing your request. Please try again.",
+                "tool_calls_made": False,
+                "iterations": 0,
+                "chat_history": formatted_history,
+                "sources": None,
+                "error": str(e)
             }
         
         except Exception as e:

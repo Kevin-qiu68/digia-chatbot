@@ -19,24 +19,40 @@ class KnowledgeBaseTool:
         self.rag_chain = rag_chain
     
     def run(self, query: str) -> str:
-        """Execute knowledge base search"""
+        """Execute knowledge base search - returns context only, not final answer"""
         print(f"🔧 Using tool: {self.name}")
         print(f"   Query: {query}")
         
-        result = self.rag_chain.query(query, use_rerank=True)
+        # Only retrieve and rerank documents, don't generate answer yet
+        retrieved_docs = self.rag_chain.retrieve_documents(query)
         
-        if result['error']:
-            return f"Error searching knowledge base: {result['error']}"
+        if not retrieved_docs:
+            return "No relevant information found in the knowledge base."
         
-        # Format response with sources
-        response = result['answer']
+        # Rerank documents
+        reranked_docs = self.rag_chain.rerank_documents(query, retrieved_docs)
         
-        if result['sources']:
-            response += "\n\nSources:"
-            for i, source in enumerate(result['sources'], 1):
-                response += f"\n{i}. {source['source']}"
+        # Return formatted context for the agent to use
+        context_parts = []
+        sources = []
+        for i, doc in enumerate(reranked_docs, 1):
+            source = doc["metadata"].get("source", "Unknown")
+            content = doc["content"]
+            score = doc["relevance_score"]
+            
+            context_parts.append(
+                f"[Source {i}: {source}] (Relevance: {score:.2f})\n{content}"
+            )
+
+            sources.append({"source": source, "relevance_score": score, "content_preview": content[:150] + "..."})
         
-        return response
+        context = "\n\n".join(context_parts)
+        
+        # Store sources for later reference
+        self.last_sources = sources
+        
+        return f"Here is the relevant information from the knowledge base:\n\n{context}"
+
 
 
 class CalculatorTool:
@@ -80,10 +96,10 @@ class CurrentTimeTool:
         now = datetime.now()
         
         return f"""Current date and time information:
-- Date: {now.strftime('%Y-%m-%d')}
-- Time: {now.strftime('%H:%M:%S')}
-- Day of week: {now.strftime('%A')}
-- Full: {now.strftime('%B %d, %Y at %I:%M %p')}"""
+        - Date: {now.strftime('%Y-%m-%d')}
+        - Time: {now.strftime('%H:%M:%S')}
+        - Day of week: {now.strftime('%A')}
+        - Full: {now.strftime('%B %d, %Y at %I:%M %p')}"""
 
 
 class ContactInfoTool:
@@ -108,9 +124,9 @@ class ContactInfoTool:
         
         # Fallback generic message
         return """For contact information, please:
-- Visit our website
-- Check the contact section in our company documentation
-- Or search for 'contact' or 'how to reach us' in the knowledge base"""
+        - Visit our website
+        - Check the contact section in our company documentation
+        - Or search for 'contact' or 'how to reach us' in the knowledge base"""
 
 
 def get_tool_definitions() -> List[Dict[str, Any]]:
