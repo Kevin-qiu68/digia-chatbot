@@ -176,7 +176,9 @@ def display_message(role, content, tool_info=None, sources=None):
     # Display sources if available
     if sources:
         with st.expander("📚 View Sources", expanded=False):
+            print(f"sources------: {sources}")
             for i, source in enumerate(sources, 1):
+                print(f"source: {source}")
                 st.markdown(f"""
                     <div class="source-box">
                         <strong>{i}. {source.get('source', 'Unknown')}</strong><br>
@@ -253,7 +255,7 @@ def main():
             "What services do you provide?",
             "Calculate 150 * 3",
             "What's the current date?",
-            "How can I contact you?"
+            "How can I contact Digia?"
         ]
         
         for question in sample_questions:

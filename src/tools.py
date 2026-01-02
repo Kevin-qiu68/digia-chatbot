@@ -18,7 +18,7 @@ class KnowledgeBaseTool:
     def __init__(self, rag_chain):
         self.rag_chain = rag_chain
     
-    def run(self, query: str) -> str:
+    def run(self, query: str) -> dict:
         """Execute knowledge base search - returns context only, not final answer"""
         print(f"🔧 Using tool: {self.name}")
         print(f"   Query: {query}")
@@ -27,7 +27,10 @@ class KnowledgeBaseTool:
         retrieved_docs = self.rag_chain.retrieve_documents(query)
         
         if not retrieved_docs:
-            return "No relevant information found in the knowledge base."
+            return {
+                    "context": "No relevant information found in the knowledge base.",
+                    "sources": []
+            }
         
         # Rerank documents
         reranked_docs = self.rag_chain.rerank_documents(query, retrieved_docs)
@@ -44,14 +47,18 @@ class KnowledgeBaseTool:
                 f"[Source {i}: {source}] (Relevance: {score:.2f})\n{content}"
             )
 
-            sources.append({"source": source, "relevance_score": score, "content_preview": content[:150] + "..."})
+            sources.append({
+                "source": source, 
+                "relevance_score": score, 
+                "content_preview": content[:150] + "..."
+            })
         
         context = "\n\n".join(context_parts)
         
-        # Store sources for later reference
-        self.last_sources = sources
-        
-        return f"Here is the relevant information from the knowledge base:\n\n{context}"
+        return {
+            "context": f"Here is the relevant information from the knowledge base:\n\n{context}",
+            "sources": sources
+        }
 
 
 
@@ -63,7 +70,7 @@ class CalculatorTool:
     Use this when the user asks to calculate numbers, percentages, or other mathematical operations.
     Input should be a mathematical expression like '100 * 1.2' or '(500 + 300) / 2'."""
     
-    def run(self, expression: str) -> str:
+    def run(self, expression: str) -> dict:
         """Execute calculation"""
         print(f"🔧 Using tool: {self.name}")
         print(f"   Expression: {expression}")
@@ -73,13 +80,22 @@ class CalculatorTool:
             # Only allow basic math operations
             allowed_chars = set("0123456789+-*/.()\n ")
             if not all(c in allowed_chars for c in expression):
-                return "Error: Invalid characters in expression. Only numbers and basic operators (+, -, *, /, parentheses) are allowed."
+                return {
+                    "context": "Error: Invalid characters in expression. Only numbers and basic operators (+, -, *, /, parentheses) are allowed.",
+                    "sources": None
+                }
             
             result = eval(expression)
-            return f"Result: {result}"
+            return {
+                "context": f"Result: {result}",
+                "sources": None 
+            }
         
         except Exception as e:
-            return f"Error calculating: {str(e)}"
+            return {
+                "context": f"Error calculating expression: {str(e)}",
+                "sources": None
+            }
 
 
 class CurrentTimeTool:
@@ -89,44 +105,18 @@ class CurrentTimeTool:
     description = """Get the current date and time.
     Use this when the user asks about the current time, date, day of week, or year."""
     
-    def run(self, query: str = "") -> str:
+    def run(self, query: str = "") -> dict:
         """Get current time"""
         print(f"🔧 Using tool: {self.name}")
         
         now = datetime.now()
         
-        return f"""Current date and time information:
-        - Date: {now.strftime('%Y-%m-%d')}
-        - Time: {now.strftime('%H:%M:%S')}
-        - Day of week: {now.strftime('%A')}
-        - Full: {now.strftime('%B %d, %Y at %I:%M %p')}"""
+        return {
+            "context": f"Current date and time information:\n- Date: {now.strftime('%Y-%m-%d')}\n- Time: {now.strftime('%H:%M:%S')}\n- Day of week: {now.strftime('%A')}\n- Full: {now.strftime('%B %d, %Y at %I:%M %p')}",
+            "sources": None
+        }
 
 
-class ContactInfoTool:
-    """Tool for getting contact information"""
-    
-    name = "get_contact_info"
-    description = """Get Digia's contact information including email, phone, and address.
-    Use this when the user specifically asks how to contact Digia or needs contact details."""
-    
-    def __init__(self, rag_chain):
-        self.rag_chain = rag_chain
-    
-    def run(self, query: str = "contact information") -> str:
-        """Get contact information"""
-        print(f"🔧 Using tool: {self.name}")
-        
-        # First try to get from knowledge base
-        result = self.rag_chain.query(f"Digia contact information: {query}", use_rerank=True)
-        
-        if result['answer'] and not result['error']:
-            return result['answer']
-        
-        # Fallback generic message
-        return """For contact information, please:
-        - Visit our website
-        - Check the contact section in our company documentation
-        - Or search for 'contact' or 'how to reach us' in the knowledge base"""
 
 
 def get_tool_definitions() -> List[Dict[str, Any]]:
@@ -165,18 +155,6 @@ def get_tool_definitions() -> List[Dict[str, Any]]:
             "parameter_definitions": {
                 "query": {
                     "description": "Optional query about what time information is needed",
-                    "type": "str",
-                    "required": False
-                }
-            }
-        },
-        {
-            "name": "get_contact_info",
-            "description": """Get Digia's contact information including email, phone, and address.
-            Use this when the user specifically asks how to contact Digia or needs contact details.""",
-            "parameter_definitions": {
-                "query": {
-                    "description": "Optional specific contact information needed (e.g., 'email', 'phone', 'address')",
                     "type": "str",
                     "required": False
                 }

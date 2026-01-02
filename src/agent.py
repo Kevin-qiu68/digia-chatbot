@@ -10,7 +10,6 @@ from src.tools import (
     KnowledgeBaseTool,
     CalculatorTool,
     CurrentTimeTool,
-    ContactInfoTool,
     get_tool_definitions
 )
 
@@ -35,8 +34,7 @@ class DigiaAgent:
         self.tools_map = {
             "knowledge_base_search": KnowledgeBaseTool(rag_chain),
             "calculator": CalculatorTool(),
-            "current_time": CurrentTimeTool(),
-            "get_contact_info": ContactInfoTool(rag_chain)
+            "current_time": CurrentTimeTool()
         }
         
         # Get tool definitions for Cohere
@@ -56,11 +54,10 @@ class DigiaAgent:
         - If you need information from the knowledge base, use the knowledge_base_search tool
         - For calculations, use the calculator tool
         - For time-related queries, use the current_time tool
-        - For contact information, use the get_contact_info tool
         - Always provide clear and concise answers
         - If you don't have information, be honest about it"""
     
-    def execute_tool(self, tool_name: str, parameters: Dict[str, Any]) -> str:
+    def execute_tool(self, tool_name: str, parameters: Dict[str, Any]) -> dict:
         """Execute a tool with given parameters"""
         if tool_name not in self.tools_map:
             return f"Error: Tool '{tool_name}' not found"
@@ -86,10 +83,16 @@ class DigiaAgent:
                 return tool.run(query)
             
             else:
-                return f"Error: Unknown tool execution pattern for '{tool_name}'"
+                return {
+                    "context": f"Error: Unknown tool execution pattern for '{tool_name}'",
+                    "sources": None
+                }
         
         except Exception as e:
-            return f"Error executing tool '{tool_name}': {str(e)}"
+            return {
+                "context": f"Error executing tool '{tool_name}': {str(e)}",
+                "sources": None
+            }
     
     def format_chat_history(self, history: List) -> List[Dict]:
         """Format chat history for Cohere API"""
@@ -180,13 +183,14 @@ class DigiaAgent:
                     print(f"   Parameters: {parameters}")
                     
                     # Execute tool
-                    result = self.execute_tool(tool_name, parameters)
+                    tool_result = self.execute_tool(tool_name, parameters)
+                    result = tool_result.get("context", "")
+                    sources = tool_result.get("sources", None)
                     
                     # Track sources from knowledge base
-                    if tool_name == "knowledge_base_search":
-                        kb_tool = self.tools_map[tool_name]
-                        if hasattr(kb_tool, 'last_sources'):
-                            all_sources.extend(kb_tool.last_sources)
+                    if sources:
+                        print(f"agent sources: {sources}")
+                        all_sources.extend(sources)
                     
                     tool_results.append({
                         "call": tool_call,
